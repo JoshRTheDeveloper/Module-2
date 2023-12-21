@@ -1,0 +1,60 @@
+body {
+ font-family: 'Arial', sans-serif;
+ margin: 0;
+ scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+nav {
+ background-color: greenyellow;
+ color: black;
+ padding: 10px;
+ text-align: center;
+}
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+nav li {
+ display: inline;
+ margin-right: 20px;
+}
+
+h2 {
+ font-size: 50px;
+ padding: 10px;
+}
+
+header {
+ text-align: center;
+ padding: 20px;
+}
+
+header img {
+ border-radius: 50%;
+ max-width: 100px;
+}
+
+section {
+ padding: 50px;
+}
+
+.work-item {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.work-item img {
+ max-width: 100%;
+}
+
+.work-item.larger img {
+ max-width: 150%; /* Larger size for the first application */
+}
+
+.imageSize {
+ width: 300px;
+}
+
