@@ -1,1 +1,28 @@
-Image by <a href="https://pixabay.com/users/molnarszabolcserdely-2742379/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7470781">Szabolcs Molnar</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7470781">Pixabay</a> 
+# Module-2-Challenge
+
+## Description
+
+This is a project that aims to make a portfolio that is responsive to show off my projects
+
+
+## Installation
+
+N/A
+
+## Usage
+
+Show a collection of projects
+
+## Deployment
+https://joshrthedeveloper.github.io/Module-2/
+#### Screenshot
+
+![my screenshot]().
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the MIT LICENSE in the repo.
