@@ -21,7 +21,7 @@ https://joshrthedeveloper.github.io/Module-2/
 
 ## Credits
 
-N/A
+[Pixaby for stock photos](https://pixabay.com)
 
 ## License
 
