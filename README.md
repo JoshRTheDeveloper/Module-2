@@ -17,7 +17,7 @@ Show a collection of projects
 https://joshrthedeveloper.github.io/Module-2/
 #### Screenshot
 
-![my screenshot](https://github.com/JoshRTheDeveloper/Module-2/blob/main/assets/joshrthedeveloper.github.io_Module-2_.png?raw=true).
+![my screenshot](assets/joshrthedeveloper.github.io_Module-2_.png).
 
 ## Credits
 
