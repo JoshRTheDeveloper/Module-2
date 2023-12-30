@@ -1,61 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Josh's Portfolio</title>
-</head>
-<body>
+<html>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <head>
+    <title>Responsive Web Design</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
 
-    <!-- Header Section -->
+  <body>
+
+    <!-- Header -->
     <header>
-        <h1>Josh's Portfolio</h1>
-        <img src="./assets/119131084_1739198592896406_7573288835560235533_n.jpg" alt="Developer's Photo">
+      <h1>Josh Roth</h1>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#">Resume</a> 
+      </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-          Hello! I am a learning developer that lives in the Dallas, Tx area. I like to read, play chess, spend time with my family and ride my motorcyle. I have been married to my wife for 8 years and have a two year old son. I hope to gain more experience in learning all the languages to be a good developer. I have spent the past three years using a CMS to build websites for clients. It started to intrigue my intrest for learning the code behind the design, so I signed up for class to learn more. 
-        </p>
-    </section>
-
-    <!-- Work Section -->
-    <section id="work">
-        <h2>My CMS Work</h2>
-        <!-- Titled images of applications with links -->
-        <div class="work-item larger">
-            <a href="https://www.bulliesoftexas.com/">
-                <img class="imageSize" src="./assets/Bullies_of_Texas_logo_2aWa (1).png" alt="Picture of a pitbull with the text Bullies of Texas">
-            </a>
-            <p>Project 1</p>
-        </div>
-        <div class="work-item">
-            <a href="https://www.stanthemann.com/">
-                <img class="imageSize" src="./assets/B.png" alt="Stan the Man Consulting">
-            </a>
-            <p>Project 2</p>
-        </div>
+    <!-- Body -->
+    <main>
+      
+      <div class="banner">
+        <h2>Let's code</h2>
+      </div>
+      
+      <div class="about" id="about-me">
+       
+        <aside>
+          <h2>About</h2>
+          <h2>Me</h2>
+        </aside>
         
-    </section>
+        <section class="content">
+          
+          <p>Hello! I am a learning developer that lives in the Dallas, Tx area. I like to read, play chess, spend time with my family and ride my motorcyle. I have been married to my wife for 8 years and have a two year old son. I hope to gain more experience in learning all the languages to be a good developer. I have spent the past three years using a CMS to build websites for clients. It started to intrigue my intrest for learning the code behind the design, so I signed up for class to learn more.</p>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <p>Contact me via email: <a href="mailto:raider4414@gmail.com">Raider4414@gmail.com</a></p>
-        
-    </section>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat unde reiciendis quam quo culpa alias numquam! Repellat vero, labore beatae expedita, vitae, magni quo architecto consequatur ratione corrupti corporis. Rem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat unde reiciendis quam quo culpa alias numquam! Repellat vero, labore beatae expedita, vitae, magni quo architecto consequatur ratione corrupti corporis. Rem?</p>
+        </section>
+    
+        <aside id="work">
+          <h2>Work</h2>
+        </aside>
+      
+        <!-- project-1 -->
 
-</body>
+       
+        <section class="content">
+          <a href="https://www.bulliesoftexas.com/">
+            <section class="project-1">
+              <section class="projectTitle-1">
+                <h2>Bullies of Texas</h2>
+                <br>
+                <h3>CMS Design</h3>
+              </section>
+            </section>
+          </a>
+
+          <!-- project-2 -->
+
+          <section class="contentSmall">
+            <div class="projectPair">
+              <a href="https://www.stanthemann.com/">
+                <section class="project-2">
+                  <section class="projectTitle-2">
+                    <h2>Stan the Mann</h2>
+                    <h3>CMS Design</h3>
+                  </section>
+                </section>
+              </a>
+      
+              <!-- project-3 -->
+
+              <a href="https://www.abclovelady.com/">
+                <section class="project-3">
+                  <section class="projectTitle-3">
+                    <h2>ABC Church</h2>
+                    <h3>CMS Design</h3>
+                  </section>
+                </section>
+              </a>
+            </div>
+      
+            <!-- project-4 -->
+
+            <div class="projectPair">
+              <a href="#">
+                <section class="project-4">
+                  <section class="projectTitle-4">
+                    <h2>Project 4</h2>
+                    <h3>Coming Soon</h3>
+                  </section>
+                </section>
+              </a>
+      
+              <!-- project 5 -->
+
+              <a href="#">
+                <section class="project-5">
+                  <section class="projectTitle-5">
+                    <h2>Project 5</h2>
+                    <h3>Coming Soon</h3>
+                  </section>
+                </section>
+              </a>
+          
+            </div>
+          </section>
+
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <section class="about" id="contact">
+        <aside>
+          <h2>Contact Me</h2>
+        </aside>
+
+        <section class="contact">
+          <a href="mailto:raider4414@gmail.com">
+            <p>Raider4414@gmail.com</p>
+          </a>
+        </section>
+      </section>
+      
+    </footer>
+  </body>
 </html>
